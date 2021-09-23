@@ -5,14 +5,23 @@ Git important points :
 
 ->git status 
 ->git init (start tracking)
-->git add --a (all files in staging areas)
+->git add --a (all files in staging areas) 
+	(or) git add .
 ->git commit -m "message" 
 ->git log  (show all commits)
 ->rm -rf .git (delets .git file)
 ->pwd (present working directory)
 ->ls (list contents in folder)
 ->cd (change directory)
-->git 
+//for ignoring files
+-> touch error.log (create log file)
+->touch .gitignore (create file gitignore)
+   = write "error.log" in .gitignore (to ignore the file)
+   = if we write "*.log" in .gitignore (then all the files with .log extention will be ignored)
+   = we can also ignore the directory just write "dir_name/" or "path/dir/"
+   = blank folder is not specified by git that it is untracked
+  
+->git diff (it compares working directory and staging area)
 ->git
 ->git
 ->git
@@ -21,4 +30,4 @@ Git important points :
 ->git
 ->git
 ->git
-->gitgi 
+->git
