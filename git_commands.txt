@@ -25,6 +25,7 @@ Git important points :
 ->git diff --staged (it compares previous commit with current staging area)
 ->git commit -a -m "Direct commit" (skipping staging area and it directly commit tracked files.
 				     we need not to stage the modified files. single command will do this for us)
+				 but untracked files can't be commited directly.
 ->git
 ->git
 ->git
