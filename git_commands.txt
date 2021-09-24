@@ -22,7 +22,7 @@ Git important points :
    = blank folder is not specified by git that it is untracked
   
 ->git diff (it compares working directory and staging area)
-->git diff --staged (it compares cu)
+->git diff --staged (it compares previous commit with current staging area)
 ->git
 ->git
 ->git
