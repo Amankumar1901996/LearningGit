@@ -21,15 +21,18 @@ Git important points :
    = we can also ignore the directory just write "dir_name/" or "path/dir/"
    = blank folder is not specified by git that it is untracked
   
-->git diff (it compares working directory and staging area)
-->git diff --staged (it compares previous commit with current staging area)
-->git commit -a -m "Direct commit" (skipping staging area and it directly commit tracked files.
-				     we need not to stage the modified files. single command will do this for us)
-				 but untracked files can't be commited directly.
-->git rm file_name.txt (delet the file and stage changes)
+->git diff                           (it compares working directory and staging area)
+->git diff --staged                  (it compares previous commit with current staging area)
+->git commit -a -m "Direct commit"   (skipping staging area and it directly commit tracked files.
+				       we need not to stage the modified files. single command will do this for us)
+				       but untracked files can't be commited directly.
+->git rm file_name.txt               (delet the file and stage changes)
 ->git mv file1.txt new_flie_name.txt (rename the file and stage changes)
-->git rm --cached file.txt (this will untrack the file which is tracked by git previously)
-->git
-->git
-->git
-->git
+->git rm --cached file.txt           (this will untrack the file which is tracked by git previously)
+->git log -p                         (commits with diff i.e changes)
+->git log -2                         (shows only commits with diff)
+->git log --stat                     (shows the statices of diff i.e changes. it shows short summary of diff and also shows files in which changes are done)
+->git log --pretty=oneline           (shows all commit in one line)
+->git log --pretty=short	     (shows only commit_hash,author,message)
+->git log --pretty=full              (shows litle more info then short only commit_hash,author,commit by,message)
+->git log --since=2.days
