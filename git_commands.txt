@@ -1,0 +1,35 @@
+Git important points :
+->three stage architecture - working directory = put project files which need to improve working area.
+			     staging directory = put project files which improved by you and want to make them ready for snapshot for saving.(staging files)
+			     git directory = all files hidden and according to command it put those files in working directory.(commit means snapshot) 
+
+->git status 
+->git init (start tracking)
+->git add --a (all files in staging areas) 
+	(or) git add .
+->git commit -m "message" 
+->git log  (show all commits)
+->rm -rf .git (delets .git file)
+->pwd (present working directory)
+->ls (list contents in folder)
+->cd (change directory)
+//for ignoring files
+-> touch error.log (create log file)
+->touch .gitignore (create file gitignore)
+   = write "error.log" in .gitignore (to ignore the file)
+   = if we write "*.log" in .gitignore (then all the files with .log extention will be ignored)
+   = we can also ignore the directory just write "dir_name/" or "path/dir/"
+   = blank folder is not specified by git that it is untracked
+  
+->git diff (it compares working directory and staging area)
+->git diff --staged (it compares previous commit with current staging area)
+->git commit -a -m "Direct commit" (skipping staging area and it directly commit tracked files.
+				     we need not to stage the modified files. single command will do this for us)
+				 but untracked files can't be commited directly.
+->git rm file_name.txt (delet the file and stage changes)
+->git mv file1.txt new_flie_name.txt (rename the file and stage changes)
+->git rm --cached file.txt (this will untrack the file which is tracked by git previously)
+->git
+->git
+->git
+->git
