@@ -23,7 +23,8 @@ Git important points :
   
 ->git diff (it compares working directory and staging area)
 ->git diff --staged (it compares previous commit with current staging area)
-->git
+->git commit -a -m "Direct commit" (skipping staging area and it directly commit tracked files.
+				     we need not to stage the modified files. single command will do this for us)
 ->git
 ->git
 ->git
