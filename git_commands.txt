@@ -30,9 +30,12 @@ Git important points :
 ->git mv file1.txt new_flie_name.txt (rename the file and stage changes)
 ->git rm --cached file.txt           (this will untrack the file which is tracked by git previously)
 ->git log -p                         (commits with diff i.e changes)
+->git log -p -n                      (n number of commits with diff i.e changes)
 ->git log -2                         (shows only commits with diff)
 ->git log --stat                     (shows the statices of diff i.e changes. it shows short summary of diff and also shows files in which changes are done)
 ->git log --pretty=oneline           (shows all commit in one line)
 ->git log --pretty=short	     (shows only commit_hash,author,message)
 ->git log --pretty=full              (shows litle more info then short only commit_hash,author,commit by,message)
-->git log --since=2.days
+->git log --since=n.days or 2.months or n.years  (where n can be a natural number)
+->git log --pretty=format:"%h -- %an" (it is basicaly formating the commit to see some commit in your form)
+
