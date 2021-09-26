@@ -41,4 +41,7 @@ Git important points :
 ->git log --amend 		     (this is used amend the previous commit we can make changes and can save them in the same commit)
 				= in this editor will open ,for typing press = "i", and press escape key for writing in terminal 
 				and write :wq for exit
+->git retore --stage file_name.ext    
+->git chechout -- file_name.ext
+
 
