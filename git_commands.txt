@@ -4,7 +4,7 @@ Git important points :
 			     git directory = all files hidden and according to command it put those files in working directory.(commit means snapshot) 
 
 ->git status 
-->git init (start tracking)
+->git init (creates repository start tracking)
 ->git add --a (all files in staging areas) 
 	(or) git add .
 ->git commit -m "message" 
@@ -43,5 +43,7 @@ Git important points :
 				and write :wq for exit
 ->git restore --stage file_name.ext   (unstage the file with is currently staged) 
 ->git chechout -- file_name.ext	      (this will restore file to previous commit even if we saved the changes which we don't suppose to make)
+->git checkout -f		      (it matches the working directory with previous commit i.e all the changes you in working directory presently will be removed)
+->git 
 
 
