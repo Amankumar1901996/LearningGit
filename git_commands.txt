@@ -38,4 +38,8 @@ Git important points :
 ->git log --pretty=full              (shows litle more info then short only commit_hash,author,commit by,message)
 ->git log --since=n.days or 2.months or n.years  (where n can be a natural number)
 ->git log --pretty=format:"%h -- %an" (it is basicaly formating the commit to see some commit in your form)
-
+->git log --amend 		     (this is used amend the previous commit we can make changes and can save them in the same commit)
+				= in this editor will open ,for typing press = "i", and press escape key for writing in terminal 
+				and write :wq for exit
+->git retore --stage file_name.ext    
+->git chechout -- file_name.ext
