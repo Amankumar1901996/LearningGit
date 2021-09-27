@@ -44,6 +44,14 @@ Git important points :
 ->git restore --stage file_name.ext   (unstage the file with is currently staged) 
 ->git chechout -- file_name.ext	      (this will restore file to previous commit even if we saved the changes which we don't suppose to make)
 ->git checkout -f		      (it matches the working directory with previous commit i.e all the changes you in working directory presently will be removed)
-->git 
+
+// remote means website which is on internet 
+// push means put code to remote repositary means git hub or any website which host git repository
+// pull means all the code with history come in my computer from remote repositary or from git hub
+----> shift + insert paste the copyed code
+----> tab is used to compelete the file name
+// origin is the remote name by default
+
+->git puch 
 
 
