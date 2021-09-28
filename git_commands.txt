@@ -52,6 +52,28 @@ Git important points :
 ----> tab is used to compelete the file name
 // origin is the remote name by default
 
-->git puch 
+#----- steps to add project to git hub -----#
+=>create new repository on git hub
+=>now open git bash in the project folder and start track it  
+=>use , git remote add origin <paste link of new repository of git hub>
+=>
+
+->git remote -v 		(shows two url one used for fetch and other used for push)
+->git push -u origin master  	(which used to push in your repository)
+
+#---To get access to push in origin master---#
+=>add SSH key
+
+
+->git puch (used to push commits you made in your project to remote repository)
+->git config --global alias.user_defined_name_for_command 'command that user define name will perform'
+
+#--Branching--#
+->git checkout -b <name of new branch>    (create new branch)
+->git checkout <name of existing branch>  (switch to named banch) 
+->git branch 				(shows name of all branches and active branch with * & green color)
+->
+
+
 
 
