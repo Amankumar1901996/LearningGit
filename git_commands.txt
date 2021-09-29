@@ -10,11 +10,13 @@ Git important points :
 ->git commit -m "message" 
 ->git log  (show all commits)
 ->rm -rf .git (delets .git file)
+->git clone <url or remote repository >
 ->pwd (present working directory)
 ->ls (list contents in folder)
 ->cd (change directory)
 //for ignoring files
--> touch error.log (create log file)
+->touch <file_name.ext> 	(it create mentioned file)
+->touch error.log (create log file)
 ->touch .gitignore (create file gitignore)
    = write "error.log" in .gitignore (to ignore the file)
    = if we write "*.log" in .gitignore (then all the files with .log extention will be ignored)
@@ -82,12 +84,19 @@ Git important points :
 
 ->git branch --merged			(already merged branches)
 ->git branch --no -merged		(not already merged branches)
-->git branch -d <name to branch>	(delete branch if it is merged and give error if not)
-->git branch -D <name of branch>	(delete branch anyways)
+->git branch -d <name to branch>	(delete branch if it is merged and give error if not in git bash)
+->git branch -D <name of branch>	(delete branch anyways in git bash)
+->git branch -d origin <name to branch>	(delete branch from online git repository i.e from git hub)
+
+
+=>switch to branch which need to push and then push using this command
+->git push origin <name of branch need to push on git hub> 
 
 
 #---Resolving Merge Conflict---#
-=>
+=>first run : git merge <Name of branch which to be merged>
+=>when ever conflict arrises just choose one from currentand incoming change the marked changes and run :
+->git add <file name in which conflict arrises> 	(which mark as resolved)
 
 
 
