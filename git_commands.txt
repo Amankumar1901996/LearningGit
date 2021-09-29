@@ -45,6 +45,8 @@ Git important points :
 ->git chechout -- file_name.ext	      (this will restore file to previous commit even if we saved the changes which we don't suppose to make)
 ->git checkout -f		      (it matches the working directory with previous commit i.e all the changes you in working directory presently will be removed)
 
+
+#---Remote Repository---#
 // remote means website which is on internet 
 // push means put code to remote repositary means git hub or any website which host git repository
 // pull means all the code with history come in my computer from remote repositary or from git hub
@@ -68,12 +70,24 @@ Git important points :
 ->git puch (used to push commits you made in your project to remote repository)
 ->git config --global alias.user_defined_name_for_command 'command that user define name will perform'
 
-#--Branching--#
+#---Branching---#
 ->git checkout -b <name of new branch>    (create new branch)
 ->git checkout <name of existing branch>  (switch to named banch) 
 ->git branch 				(shows name of all branches and active branch with * & green color)
-->
+->git branch -v				(shows name of branch along with last commit hash and message)
 
+#---Merging the branch with master branch---#
+=>switch to master branch then :
+->git merge <Name of branch which to be merged>
+
+->git branch --merged			(already merged branches)
+->git branch --no -merged		(not already merged branches)
+->git branch -d <name to branch>	(delete branch if it is merged and give error if not)
+->git branch -D <name of branch>	(delete branch anyways)
+
+
+#---Resolving Merge Conflict---#
+=>
 
 
 
